@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bewertung – Durchblicker Fensterputz</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f0f0f0; }
+    header { background-color: #2e86de; color: white; padding: 20px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 30px; max-width: 700px; margin: auto; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    input, textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+    .btn { padding: 10px 20px; background: #2e86de; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    .btn:hover { background: #1d6fcc; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Durchblicker – Fensterputz vom Schüler</h1>
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="buchen.html">Buchen</a>
+  </nav>
+</header>
+
+<section>
+  <h2>Deine Bewertung</h2>
+  <p>Warst du zufrieden mit meiner Arbeit? Dann hinterlasse hier eine Bewertung. Vielen Dank für dein Feedback!</p>
+  
+  <form action="mailto:jonathan.stueer@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Dein Name:</label>
+    <input type="text" id="name" name="Name" required>
+
+    <label for="bewertung">Deine Bewertung:</label>
+    <textarea id="bewertung" name="Bewertung" rows="5" placeholder="Was hat dir gefallen?" required></textarea>
+
+    <button type="submit" class="btn">Bewertung absenden</button>
+  </form>
+
+  <p style="margin-top: 30px; font-size: 0.9em; color: #666;">
+    📞 Bei Fragen erreichst du mich auch unter: <strong>+49 174 97103331</strong>
+  </p>
+</section>
+
+</body>
+</html>
