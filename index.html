@@ -1,60 +1,63 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SparGlas – Fensterputz vom Schüler</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #f7f9fc; margin: 0; padding: 0; }
-    header { background-color: #3498db; color: white; padding: 30px 20px; text-align: center; }
-    nav { margin-top: 15px; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    section { padding: 40px 20px; max-width: 900px; margin: auto; background: white; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-radius: 8px; }
-    h1, h2 { color: #2c3e50; }
-    p { line-height: 1.6; font-size: 1.1em; color: #333; }
-    .highlight { background: #e3f2fd; padding: 15px; border-left: 5px solid #3498db; margin: 20px 0; border-radius: 5px; }
-    .btn { display: inline-block; background: #3498db; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; margin-top: 20px; }
-    footer { text-align: center; padding: 20px; font-size: 0.9em; color: #888; margin-top: 50px; }
-  </style>
+  <meta charset="UTF-8">
+  <title>Fensterputzen mit Klarblick – Jonathan Stüer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>SparGlas – Fensterputz vom Schüler</h1>
-  <p>„Du benötigst eine klare Sicht auf die Dinge? Dann buche SparGlas.“</p>
-  <nav>
-    <a href="buchen.html">Buchen</a>
-    <a href="kontakt.html">Kontakt</a>
-    <a href="bewertung.html">Bewerten</a>
-  </nav>
-</header>
+  <header>
+    <h1>Fensterputzen mit Klarblick</h1>
+    <p>Sauber. Schnell. Persönlich. In deiner Nachbarschaft – von Jonathan Stüer.</p>
+  </header>
 
-<section>
-  <h2>Willkommen bei SparGlas</h2>
-  <p>Mein Name ist <strong>Jonathan</strong> – ich bin Schüler und biete in <strong>Ludwigsburg</strong> (Eglosheim, Oßweil und Pflugfelden) professionellen Fensterputz zu fairen Preisen an.</p>
+  <div class="container">
 
-  <div class="highlight">
-    <strong>✅ Besonderheit:</strong>  
-    Ich putze dir <strong>ein Fenster gratis</strong> – damit du dich selbst von meiner Arbeit überzeugen kannst.
+    <section>
+      <h2>✅ Mein Angebot</h2>
+      <p>Ich, <strong>Jonathan Stüer</strong>, reinige deine Fenster schnell, gründlich und zuverlässig – ob Wohnung, Haus oder Laden. Direkt aus der Region, transparent und unkompliziert.</p>
+      <a href="#kontakt" class="button">Jetzt Termin sichern</a>
+    </section>
+
+    <section class="special-offer">
+      <h2>🎁 Special Offer: Freunde werben lohnt sich!</h2>
+      <p>Du bist zufrieden mit meinem Service? Dann <strong>empfiehl mich weiter</strong> – und beim nächsten Mal putze ich für dich <strong>zum halben Preis</strong>!</p>
+      <p><em>Gilt bei erfolgreicher Weiterempfehlung, z. B. über WhatsApp oder mündlich.</em></p>
+      <a href="#kontakt" class="button special">Special nutzen</a>
+    </section>
+
+    <section>
+      <h2>🔧 NEU: Fahrrad-Reifen flicken</h2>
+      <p>Ob platter Reifen, rausgesprungene Kette oder durchlöcherter Schlauch – ich bring dein Fahrrad wieder in Fahrt. Schnell, günstig und flexibel bei dir vor Ort oder bei mir.</p>
+      <a href="#kontakt" class="button">Reifen flicken lassen</a>
+    </section>
+
+    <section id="kontakt">
+      <h2>📞 Kontakt</h2>
+      <p>Du möchtest einen Termin buchen oder hast eine Frage? Melde dich einfach:</p>
+
+      <ul>
+        <li><strong>📱 Telefon / WhatsApp:</strong> <a href="tel:+4917497103331">+49 174 97103331</a></li>
+        <li><strong>📧 E-Mail:</strong> <a href="mailto:jonathan.stueer@gmail.com">jonathan.stueer@gmail.com</a></li>
+      </ul>
+
+      <p>Oder schreib mir direkt hier:</p>
+
+      <form>
+        <input type="text" placeholder="Dein Name" required>
+        <input type="email" placeholder="Deine E-Mail" required>
+        <textarea placeholder="Deine Nachricht" rows="5" required></textarea>
+        <button type="submit">Absenden</button>
+      </form>
+    </section>
+
   </div>
 
-  <h2>💰 Preis & Leistung</h2>
-  <p>Ich arbeite schnell, sauber und zuverlässig – und das für nur <strong>12 € pro Stunde</strong>.</p>
-  <p>Im Vergleich: Profis verlangen 3–5 € pro Quadratmeter – ich biete Schülerpreise mit vollem Einsatz.</p>
-
-  <h2>🕒 Verfügbare Zeiten</h2>
-  <p><strong>Montag bis Sonntag</strong> von <strong>13:00 bis 20:00 Uhr</strong> <br>
-  <strong>Kein Service am Dienstag</strong></p>
-
-  <a href="buchen.html" class="btn">Jetzt Termin buchen</a>
-</section>
-
-<footer>
-  📞 <a href="tel:+4917497103331">+49 174 97103331</a>  
-  | ✉️ <a href="mailto:jonathan.stueer@gmail.com">jonathan.stueer@gmail.com</a>  
-  <br><br>
-  © 2025 SparGlas – Fensterputz vom Schüler
-</footer>
+  <footer>
+    <p>&copy; 2025 Jonathan Stüer – Fensterputzen mit Klarblick</p>
+  </footer>
 
 </body>
 </html>
